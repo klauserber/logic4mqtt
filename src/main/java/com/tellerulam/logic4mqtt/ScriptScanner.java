@@ -41,6 +41,7 @@ public class ScriptScanner
 			{
 				// Configure the engine
 				se.put("Events", InstanceManager.getEventsInstance());
+				se.put("events", InstanceManager.getEventsInstance());
 				se.put("Timers", InstanceManager.getTimersInstance());
 				se.put("Utilities", InstanceManager.getUtilitiesInstance());
 				se.put("Time", InstanceManager.getTimeInstance());
