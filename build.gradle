@@ -24,6 +24,8 @@ dependencies {
 	}
 	compile 'com.sun.mail:javax.mail:1.5.5'
 	testCompile 'junit:junit:4.11'
+	
+	compile 'org.codehaus.groovy:groovy-all:2.4.7'
 }
 
 task listJars << {
